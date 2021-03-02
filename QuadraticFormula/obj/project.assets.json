@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QuadraticFormulaCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/QuadraticFormulaCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuadraticFormulaCalculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuadraticFormulaCalculator/1.0.0": {
+      "type": "project",
+      "path": "../QuadraticFormulaCalculator/QuadraticFormulaCalculator.csproj",
+      "msbuildProject": "../QuadraticFormulaCalculator/QuadraticFormulaCalculator.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "QuadraticFormulaCalculator >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\amb00\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\amb00\\OneDrive\\Github\\QuadraticFormula\\QuadraticFormula\\QuadraticFormulaConsoleApp.csproj",
+      "projectName": "QuadraticFormulaConsoleApp",
+      "projectPath": "C:\\Users\\amb00\\OneDrive\\Github\\QuadraticFormula\\QuadraticFormula\\QuadraticFormulaConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\amb00\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amb00\\OneDrive\\Github\\QuadraticFormula\\QuadraticFormula\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\amb00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\amb00\\OneDrive\\Github\\QuadraticFormula\\QuadraticFormulaCalculator\\QuadraticFormulaCalculator.csproj": {
+              "projectPath": "C:\\Users\\amb00\\OneDrive\\Github\\QuadraticFormula\\QuadraticFormulaCalculator\\QuadraticFormulaCalculator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

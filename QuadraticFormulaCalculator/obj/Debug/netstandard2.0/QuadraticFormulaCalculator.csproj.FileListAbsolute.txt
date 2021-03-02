@@ -1,0 +1,9 @@
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\bin\Debug\netstandard2.0\QuadraticFormulaCalculator.deps.json
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\bin\Debug\netstandard2.0\QuadraticFormulaCalculator.dll
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\bin\Debug\netstandard2.0\QuadraticFormulaCalculator.pdb
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.csprojAssemblyReference.cache
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.AssemblyInfoInputs.cache
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.AssemblyInfo.cs
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.csproj.CoreCompileInputs.cache
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.dll
+C:\Users\amb00\OneDrive\Github\QuadraticFormula\QuadraticFormulaCalculator\obj\Debug\netstandard2.0\QuadraticFormulaCalculator.pdb
