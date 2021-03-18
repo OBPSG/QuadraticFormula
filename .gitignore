@@ -1,0 +1,4 @@
+# Bin and Obj directories for all projects #
+############################################
+**/bin
+**/obj
