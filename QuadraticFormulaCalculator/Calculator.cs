@@ -27,13 +27,26 @@ namespace QuadraticFormulaCalculator
             //Compare discriminant to determine number and types of solutions
             //Subtraction comparison is nessecary because of floating point imprecision
             if (0 - discriminant > 0.0000001)
+            {
                 results[0] = new Complex(2.0, 0.0); //Discriminant is negative, therfore we have 2 complex solutions
+                double imaginary = Math.Sqrt((discriminant * -1)) / (2 * a);
+                results[1] = new Complex(((-1 * b) / (2 * a)), (imaginary));
+                results[2] = new Complex(((-1 * b) / (2 * a)), (imaginary * -1));
+            }
             else if (0 - discriminant < -0.0000001)
+            {
                 results[0] = new Complex(0.0, 0.0);  //Discriminant is positve, therefore we have 2 real solutions
+                results[1] = new Complex(((b * -1) + Math.Sqrt(discriminant)) / (2 * a), 0.0);
+                results[2] = new Complex(((b * -1) - Math.Sqrt(discriminant)) / (2 * a), 0.0);
+            }
             else //difference between discriminant and 0.0 is small enough that it is esentially zero
+            {
                 results[0] = new Complex(1.0, 0.0); //Discriminant is zero, therefore we have 1 real solution
-            results[1] = new Complex(2.0, 0.0);
-            results[2] = new Complex(3.0, 0.0);
+                results[1] = results[1] = new Complex(((b * -1) + Math.Sqrt(discriminant)) / (2 * a), 0.0);
+                results[2] = null;
+            }
+            //results[1] = new Complex(2.0, 0.0);
+            //results[2] = new Complex(3.0, 0.0);
             return results;
         }
     }
