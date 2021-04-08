@@ -4,4 +4,4 @@
 **/obj
 
 # Top-level Visual Studio metadata directory
-.vs/
+vs/
