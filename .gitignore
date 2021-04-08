@@ -3,5 +3,10 @@
 **/bin
 **/obj
 
-# Top-level Visual Studio metadata directory
+# Top-level Visual Studio metadata directory #
+##############################################
 vs/
+
+# Any file that includes log in the extension #
+###############################################
+.*log*
