@@ -5,7 +5,7 @@
 
 # Top-level Visual Studio metadata directory #
 ##############################################
-vs/
+.vs/*
 
 # Any file that includes log in the extension #
 ###############################################
